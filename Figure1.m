@@ -73,7 +73,7 @@ errorbar(7,fitRes_PKCg_DPPChighPS_Hill_100mOsm(1),fitErr_PKCg_DPPChighPS_Hill_10
 errorbar(8,fitRes_PKCg_DPPChighPS_Hill_240mOsm(1),fitErr_PKCg_DPPChighPS_Hill_240mOsm(1,1)-fitRes_PKCg_DPPChighPS_Hill_240mOsm(1),fitRes_PKCg_DPPChighPS_Hill_240mOsm(1)-fitErr_PKCg_DPPChighPS_Hill_240mOsm(2,1),'k');
 
 set(gca,'YScale','log')
-
+ylim([0,10^4])
 
 % Figure 1e. Compare Kd of cPla2 WT, cPla2 hydrophobic mutants, Alox5a,
 % Alox12 and PKC Gamma in no stretch and high stretch regime (20 uM Ca)
@@ -149,6 +149,7 @@ bar(8,fitRes_Alox12_DPPCPS_Lm(2),'w');
 errorbar(8,fitRes_Alox12_DPPCPS_Lm(2),fitErr_Alox12_DPPCPS_Lm(1,2)-fitRes_Alox12_DPPCPS_Lm(2),fitRes_Alox12_DPPCPS_Lm(2)-fitErr_Alox12_DPPCPS_Lm(2,2),'k^');
 
 set(gca,'YScale','log')
+ylim([10,10^4])
 figure(5), set(gca,'Color',[1 1 1])
 
 
@@ -216,6 +217,7 @@ errorbar(8,fitRes_PKCg_DPPChighPS_200uMCa_Lm_240mOsm(2),fitErr_PKCg_DPPChighPS_2
 
 
 set(gca,'YScale','log')
+ylim([10,10^4])
 figure(7), set(gca,'Color',[1 1 1])
 
 

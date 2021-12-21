@@ -1,4 +1,4 @@
-function [fitresult, gof] = createFitLM_hill(x, y)
+function [fitresult, gof] = createFitLM_hill_ALPS(x, y)
 %CREATEFIT(X,Y)
 %  Create a fit.
 %
@@ -21,8 +21,7 @@ function [fitresult, gof] = createFitLM_hill(x, y)
 ft = fittype( 'Bmax*c^n/(c^n+Kd^n)', 'independent', 'c', 'dependent', 'y' );
 opts = fitoptions( 'Method', 'NonlinearLeastSquares' );
 opts.Display = 'Off';
-opts.Lower = [0 0 1];
-opts.Upper= [Inf Inf 1];
+opts.Lower = [0 1 0];
 %opts.Robust = 'LAR';
 opts.StartPoint = [0.964888535199277 0.157613081677548 1];
 
