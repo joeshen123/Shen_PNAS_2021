@@ -1,5 +1,5 @@
 
-%Figure S1d cPla2 C2-eGFP Calcium Mutant binding (60 min)
+%Figure S2d cPla2 C2-eGFP Calcium Mutant binding (60 min)
 WT=D3487_WT.NormalizedGFPintensity(find(D3487_WT.TimePoint==60));
 K=D3487K.NormalizedGFPintensity(find(D3487K.TimePoint==60));
 R=D3487R.NormalizedGFPintensity(find(D3487R.TimePoint==60));
