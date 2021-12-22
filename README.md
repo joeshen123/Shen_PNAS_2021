@@ -11,5 +11,9 @@
 
 **Note: All files/scripts should be kept in the same directory, otherwise Matlab program will not recognize auxillary functions while running Figure Script.**
 
-## Step-by-Step Tutorial with Images
+## Step-by-Step Visual Instructions
+![alt text](https://github.com/joeshen123/Shen_PNAS_2021/blob/main/Tutorial%20Diagram%201.png)
+
+![alt text](https://github.com/joeshen123/Shen_PNAS_2021/blob/main/Tutorial%20Diagram%202.png)
+
 
