@@ -17,5 +17,5 @@
 ![alt text](https://github.com/joeshen123/Shen_PNAS_2021/blob/main/Tutorial%20Diagram%202.png)
 
 ### Matlab Version: R2020b Update 3 (9.9.0.1538559) 64-bit (maci64) ###
-### Tool box: Curve Fitting Toolbox 3.5.12 (R2020b), Statistics and Machine Learning Toolbox 12.0 ###
+### Tool box: Curve Fitting Toolbox 3.5.12 (R2020b), Statistics and Machine Learning Toolbox 12.0 (R2020b) ###
 
